@@ -8,9 +8,10 @@ import logging
 import telegram
 from telegram.error import NetworkError, Unauthorized
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-from telegram import Update
 from time import sleep
 
+#!!!! Insert here your TOKEN !!!!
+BOT_TOKEN = os.environ.get('BOT_TOKEN')
 
 update_id = None
 
@@ -109,8 +110,7 @@ def echo(update, context):
 
 def main():
     
-    #!!!! Insert here your TOKEN !!!!
-    updater = Updater("TOKEN", use_context=True)
+    updater = Updater(BOT_TOKEN, use_context=True)
 
     dp = updater.dispatcher
 

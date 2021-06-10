@@ -1,4 +1,4 @@
-python_telegram_bot==12.0.0b1
-requests==2.21.0
-beautifulsoup4==4.7.1
+python_telegram_bot==13.6
+requests==2.7.0
+beautifulsoup4==4.9.3
 telegram==0.0.1
