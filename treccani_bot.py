@@ -8,6 +8,7 @@ import logging
 import telegram
 from telegram.error import NetworkError, Unauthorized
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram import Update
 from time import sleep
 
 
