@@ -1,1 +1,1 @@
-python treccani_bot.py
+worker: python treccani_bot.py
