@@ -1,1 +1,1 @@
-python treccani_bot.py
+web: python treccani_bot.py
