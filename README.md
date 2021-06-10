@@ -12,3 +12,6 @@ A telegram bot that use BeautifulSoup for web scraping Treccani site and return 
 ## Bug
 - The accented words must be provided without accents 
 - Homographs words are not selectable (it return the first it find)
+
+## Telegram link
+http://t.me/trec_bot
